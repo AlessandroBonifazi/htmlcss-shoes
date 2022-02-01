@@ -9,13 +9,6 @@ body {
     overflow: hidden;
 }
 
-.container {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    background-color: lightblue;
-}
-
 /* inizio nav */
 nav {
     width: 100px;
@@ -27,7 +20,6 @@ nav {
 
 ul {
     list-style: none;
-
 }
 
 li {
@@ -43,9 +35,32 @@ li {
 
 li a {
     text-decoration: none;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 300;
 }
 /* fine nav */
 
+/* container con colori  */
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#first {
+    background-color: rgb(119, 223, 119);
+}
+
+#second {
+    background-color: lightskyblue;
+}
+
+#third {
+    background-color: lightsalmon;
+}
+/* fine container */
+
+/* inzio content */
 .content {
     position: absolute;
     top: 50%;
@@ -55,4 +70,7 @@ li a {
 
 h1 {
     text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: yellow;
 }
+/* fine content */
