@@ -38,6 +38,10 @@ li a {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 300;
 }
+
+nav li:hover {
+    transform: scale(1.2);
+}
 /* fine nav */
 
 /* container con colori  */
