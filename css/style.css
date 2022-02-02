@@ -68,9 +68,10 @@ li a {
     transform: translate(-50%, -50%);
 }
 
-h1 {
+h2 {
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
+    font-size: 35px;
     color: yellow;
 }
 /* fine content */
